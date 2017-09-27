@@ -8,8 +8,42 @@
     android:orientation="vertical"
     tools:context="com.cqc.paint01.MainActivity">
 
-    <com.cqc.paint01.view.ColorPractice
+    <com.cqc.paint01.view.ColorView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <com.cqc.paint01.view.ShaderView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <com.cqc.paint01.view.ColorFilterView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <com.cqc.paint01.view.TransferModeView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <com.cqc.paint01.view.LineView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <com.cqc.paint01.view.PathEffectView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <com.cqc.paint01.view.ShadowLayerView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <com.cqc.paint01.view.MaskFilterView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
-
 </LinearLayout>

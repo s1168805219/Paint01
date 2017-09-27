@@ -13,19 +13,19 @@ import android.view.View;
  * paint  color
  */
 
-public class ColorPractice extends View {
+public class ColorView extends View {
 
     private Paint paint;
 
-    public ColorPractice(Context context) {
+    public ColorView(Context context) {
         this(context,null);
     }
 
-    public ColorPractice(Context context, @Nullable AttributeSet attrs) {
+    public ColorView(Context context, @Nullable AttributeSet attrs) {
         this(context, attrs,0);
     }
 
-    public ColorPractice(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public ColorView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         paint = new Paint();
     }
